@@ -1,0 +1,14 @@
+
+Q1. What does import in java means?
+Ans.  Import in java is helpful to take a class or all classes visible for a program sepecified under a package, with the help of single statement.  It is pretty beneficial as the programmer do not require to write the entire class definition.
+
+Q2. What packages in Java means?
+Package in Java is a mechanism to encapsulate a group of classes, sub packages and interfaces. Packages are used for:
+
+a) Preventing naming conflicts. For example there can be two classes with name Employee in two packages, college.staff.cse.Employee and college.staff.ee.Employee
+
+b) Making searching/locating and usage of classes, interfaces, enumerations and annotations easier
+
+c) Providing controlled access: protected and default have package level access control. A protected member is accessible by classes in the same package and its subclasses. A default member (without any access specifier) is accessible by classes in the same package only.
+
+d)Packages can be considered as data encapsulation (or data-hiding).

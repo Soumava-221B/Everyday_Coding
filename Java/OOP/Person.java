@@ -1,4 +1,4 @@
-// Write a Java program to create a class called "Person" with a name and age attribute. Create two instatances of the "Person" class, set their attributesusing the constructor, and print their name and ag.
+// Write a Java program to create a class called "Person" with a name and age attribute. Create two instatances of the "Person" class, set their attributesusing the constructor, and print their name and age.
 
 public class Person {
     private String name;

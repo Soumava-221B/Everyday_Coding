@@ -6,6 +6,6 @@
 # The volume of the sphere is : V = 4/3 × π × r3 = π × d3/6.
 
 pi = 3.1415926535897931
-r = 6.0
+r = int(input("Enter the radius: "))
 V = 4/3 * pi * r**3
 print("Volume of the sphere is: ", V)

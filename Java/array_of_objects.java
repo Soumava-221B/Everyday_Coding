@@ -5,8 +5,8 @@ class Student
 	int marks;	
 }
 
-public class Demo {
-	public static void main(String[] args) 
+public class array_of_objects {
+	public static void main(String args[]) 
 	{
 		Student s1=new Student();
 		s1.rollno=1;
@@ -23,7 +23,7 @@ public class Demo {
 		s3.name="Kiran";
 		s3.marks=97;
 		
-		System.out.println(s1.name + ":"+ s1.marks);
+		//System.out.println(s1.name + ":"+ s1.marks);
 		
 		Student students[]=new Student[3];
 		students[0]=s1;
